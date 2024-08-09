@@ -1,0 +1,78 @@
+.item-swipe-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh; 
+    margin: 0;
+    padding: 0;
+  }
+  
+  .item-card {
+    position: relative;
+    width: 300px; 
+    max-width: 85vw;
+    height: 400px; 
+    background-color: #fff;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding: 20px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .item-card img {
+    max-width: 100%;
+    max-height: 80%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .item-card h3 {
+    margin: 10px 0 0 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .swipe-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .swipe-left {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 20px;
+  }
+  
+  .swipe-right {
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 20px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

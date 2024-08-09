@@ -1,0 +1,55 @@
+.add-items-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh; 
+  padding: 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  width: 100%;
+  max-width: 400px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input-item [type="text"],
+input-item [type="file"],
+select {
+  width: center;
+  padding: 10px;
+  font: bold;
+  border: 1px solid rgb(22, 20, 20);
+  border-radius: 5px;
+  background-color: rgb(141, 224, 177) 
+
+}
+
+button {
+  background-color: seagreen;
+  color: rgb(59, 59, 59);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkgreen;
+}
+
+
+
+
+  
+  
